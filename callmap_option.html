@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box1{
+            width: 90%;
+            height: auto;
+            color: aliceblue;
+            background-color: dodgerblue;
+            border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .grid{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(3, 3fr)
+        }
+        .grid_box{
+            width: 80px;
+            height: 30px;
+            border: 1px solid;
+            border-radius: 5px;
+            color: dodgerblue;
+            background-color: whitesmoke;
+
+            justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .box2{
+            width: 90%;
+            height: auto;
+            color: aliceblue;
+            background-color: dodgerblue;
+            border-radius: 10px;
+            padding-top: 50px;
+            margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .box3{
+            width: 90%;
+            height: auto;
+            color: aliceblue;
+            background-color: dodgerblue;
+            border-radius: 10px;
+            padding-top: 50px;
+            margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>설정</h2>
+    <hr style="width: 100%; border: 1px solid  dodgerblue; margin-bottom:20px; font-size: 2px;">
+
+    <div class="box1">
+        <h4> <b style="font-size: 20px;"> 가 </b> <b style="font-size: 35px; padding-left: 30px; padding-right: 30px;">가</b> <b style="font-size: 45px;">가</b></h4>
+        <div class="grid">
+            <div class="grid_box">중간</div>
+            <div class="grid_box" style="margin-left:20px; margin-right: 20px;">크게</div>
+            <div class="grid_box">제일크게</div>
+        </div>
+    </div>
+    <div class="box2">
+        <h4 style="font-size: large;">음성 끄기 / 크기</h4>
+    </div>
+    <div class="box3">
+        <h4 style="font-size: large;">콜맵 알아보기</h4>
+    </div>
+</body>
+</html>
